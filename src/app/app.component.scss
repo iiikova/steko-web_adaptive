@@ -144,22 +144,47 @@ nav {
 
 
 //section 3
-.box {
-    max-height: 160px;
-    margin: 10px;
-    color: #898982;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    span {
-        margin-top: 5px;
+.steko-skills {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    .steko-skills-one {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        .steko-skills-one-item {
+            margin-top: 20px;
+            img {
+                height: 100px;
+            }
+            .steko-skills-one-item-logo {
+                padding-bottom: 20px;
+            }
+            .steko-skills-one-item-name {
+            }
+        }
+    }
+    .steko-skills-two {
+
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        .steko-skills-two-item {
+            margin-top: 20px;
+            img {
+                height: 100px;
+                width: 220px;
+            object-fit: contain;
+
+            }
+            .steko-skills-two-item-logo {}
+            .steko-skills-two-item-name {}
+        }
     }
 }
 
-//section 4
+// / section 3 //
+
+// section 4 //
 
     .block {
         ul {
